@@ -1,0 +1,58 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+h1{
+    text-align: center;
+}
+
+.calc-body{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(237, 241, 168);
+}
+
+.calc-screen #inp{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers{
+    margin-right: 50px
+}
+

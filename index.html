@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+</head>
+<body>
+
+    <div class="calc-body">
+        <h1>Calculator</h1>
+        <div class="calc-screen">
+            <input type="text" id="inp" placeholder="Enter Value..." readonly="">
+        </div>
+        <div class="buttons">
+            <div class="numbers">
+                <button class="0" onclick="num_click(0)">0</button>
+                <button class="1" onclick="num_click(1)">1</button>
+                <button class="2" onclick="num_click(2)">2</button>
+                <button class="3" onclick="num_click(3)">3</button>
+                <button class="4" onclick="num_click(4)">4</button>
+                <button class="5" onclick="num_click(5)">5</button>
+                <button class="6" onclick="num_click(6)">6</button>
+                <button class="7" onclick="num_click(7)">7</button>
+                <button class="8" onclick="num_click(8)">8</button>
+                <button class="9" onclick="num_click(9)">9</button>
+            </div>
+            <div class="operator">
+                <button class="plus" onclick="num_click('+')">+</button>
+                <button class="minus" onclick="num_click('-')">-</button>
+                <button class="divide" onclick="num_click('/')">/</button>
+                <button class="multiply" onclick="num_click('*')">*</button>
+                <button class="equal" onclick="exe()">=</button>
+                <button class="clear" onclick="del()">del</button>
+                <button class="clear" onclick="cls()">cls</button>
+            </div>
+            
+        </div>
+
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
